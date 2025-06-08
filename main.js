@@ -96,3 +96,13 @@ if (breakfastBtn) {
     showMeal("breakfastMeal");
   });
 }
+if (lunchBtn) {
+  lunchBtn.addEventListener("click", () => {
+    showMeal("lunchMeal");
+  });
+}
+if (breakfastBtn) {
+  dinnerBtn.addEventListener("click", () => {
+    showMeal("dinnerMeal");
+  });
+}
