@@ -182,4 +182,5 @@ body {
   display: none;
   /* transform: translateX(0); */
   transition: transform cubic-bezier(0.99, 1.82, 0.46, 1.16);
+  text-align: center;
 }
